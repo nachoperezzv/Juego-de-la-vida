@@ -111,6 +111,8 @@ class Game():
         if mbuttons[2]:
             self.cells[i][j] = False
 
+        self.population = int(np.sum(self.cells))
+
     def check_neighbours(self,x,y):
         neighbours = 0
 

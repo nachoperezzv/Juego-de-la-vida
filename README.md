@@ -2,7 +2,7 @@
 
 Simulación del juego de la vida en **pygame**. 
 
-![Simulación 1](Include/videos/video-GoL-2.mp4)
+![](Include/videos/video-GoL-G.gif)
 
 # Índice
 
@@ -24,9 +24,6 @@ El estado de todas las células se tiene en cuenta para calcular el estado de la
 *   Una célula muerta con exactamente 3 células vecinas vivas "nace" (es decir, al turno siguiente estará viva).
 
 *   Una célula viva con 2 o 3 células vecinas vivas sigue viva, en otro caso muere (por "soledad" o "superpoblación").
-
-
-
 
 
 ## Descargar
