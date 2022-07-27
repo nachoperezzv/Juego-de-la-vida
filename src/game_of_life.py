@@ -69,13 +69,12 @@ class Game():
                             pygame.draw.rect(self.screen,'white',(i*10,j*10,10,10))
                         
                         self.population = int(np.sum(self.new_cells))
-                        self.generation += 1
-                        
+                                                
                     else:
                         if self.new_cells[i][j] == 1:
                             pygame.draw.rect(self.screen,[120,120,120],(i*10,j*10,10,10))
                 
-            
+            if life: self.generation += 1
             
             self.cells = np.copy(self.new_cells)
 
