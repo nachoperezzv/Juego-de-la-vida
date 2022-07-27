@@ -2,6 +2,7 @@
 
 Simulación del juego de la vida en **pygame**. 
 
+![Simulación 1](Include/videos/video-GoL-2.mp4)
 
 # Índice
 
