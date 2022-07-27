@@ -2,7 +2,7 @@
 
 Simulación del juego de la vida en **pygame**. 
 
-![](Include/videos/video-GoL-G.gif)
+![video](Include/videos/video-GoL-G.gif)
 
 # Índice
 
